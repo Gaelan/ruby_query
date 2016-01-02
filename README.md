@@ -5,11 +5,11 @@ RubyQuery allows you to write MongoDB queries using normal ruby syntax. Instead 
 
 ```json
 {
-  'favorite_language': 'Ruby',
-  'projects': {'$elemMatch': {
-    $or: [
+  "favorite_language": "Ruby",
+  "projects": {"$elemMatch": {
+    "$or": [
       {title: /poignant/},
-      {type: 'web framework'}
+      {type: "web framework"}
     ]
   }}
 }
