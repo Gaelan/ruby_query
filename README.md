@@ -8,8 +8,8 @@ RubyQuery allows you to write MongoDB queries using normal ruby syntax. Instead 
   "favorite_language": "Ruby",
   "projects": {"$elemMatch": {
     "$or": [
-      {title: /poignant/},
-      {type: "web framework"}
+      {"title": /poignant/},
+      {"type": "web framework"}
     ]
   }}
 }
